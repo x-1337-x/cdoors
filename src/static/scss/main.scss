@@ -1,20 +1,22 @@
 // @import './base/fonts';
 //@import './abstracts/variables';
-//@import './abstracts/sprite';
-// @include sprites($spritesheet-sprites);
+@import './abstracts/sprite';
+@include sprites($spritesheet-sprites);
 
 
 @import './base/reset';
 @import './base/base';
 
-// @import './components/banner';
+@import './components/small-components';
 
 
 
 //@import './pages/home';
 
 
-// @import './layout/header';
+@import './layout/header';
+@import './layout/subheader';
+@import './layout/catalogue';
 
 
 

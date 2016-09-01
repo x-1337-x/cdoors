@@ -3,7 +3,8 @@ body, html {
 }
 
 body {
-  font: normal 16px/1.4 Open Sans, Arial, sans-serif;
+  font: normal 16px/1.4 Arial, Open Sans, sans-serif;
+  position: relative;
 }
 
 * {
@@ -12,8 +13,9 @@ body {
 }
 
 .wrapper {
-  width: 960px;
+  width: 100%;
   margin: auto;
+  padding: 0 15px;
 }
 
 .icon {
@@ -42,4 +44,12 @@ a {
 
 .hidden {
   display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .wrapper {
+    max-width: 940px;
+    margin: auto;
+    padding: 0;
+  }
 }

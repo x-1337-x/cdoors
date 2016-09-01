@@ -1,0 +1,27 @@
+.c-btn {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.c-btn__green {
+  background-color: #569800;
+  background: -webkit-linear-gradient(top, #6cae16, #408200);
+  background: -moz-linear-gradient(top, #6cae16, #408200);
+  background: -ms-linear-gradient(top, #6cae16, #408200);
+
+  &.active {
+    background-image: none;
+    background-color: #569800;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(66, 57, 46, 0.4);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(66, 57, 46, 0.4);
+    box-shadow: inset 0px 1px 1px 0px rgba(66, 57, 46, 0.4);
+  }
+}
+
+.c-pill-container {
+  border-radius: 3px;
+}

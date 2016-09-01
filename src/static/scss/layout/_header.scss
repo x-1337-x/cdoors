@@ -1,0 +1,102 @@
+.l-header {
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+}
+
+.l-navbar {
+  width: 100%;
+  height: 40px;
+  background-color: #2b2723;
+
+  .wrapper {
+    padding: 0;
+  }
+}
+
+.c-menu-btn {
+  height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 0 15px 10px;
+}
+
+.l-navbar-menu {
+  background-color: #2b2723;
+  display: none;
+  z-index: 50;
+
+  &.active {
+    display: block;
+  }
+
+  ul {
+    vertical-align: middle;
+  }
+
+  li a {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 20px;
+    vertical-align: middle;
+    position: relative;
+    line-height: 40px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 17px;
+      left: 3px;
+      @extend .icon-li-bullet;
+    }
+  }
+}
+
+.l-navbar-auth {
+  height: 40px;
+  float: right;
+  position: relative;
+}
+
+.l-navbar-auth-login,
+.l-navbar-auth-cart {
+  display: inline-block;
+}
+
+.l-navbar-auth-login {
+  height: 40px;
+  line-height: 40px;
+  margin-right: 145px;
+  a {
+    font-size: 15px;
+    color: #ffe328;
+    padding: 15px 20px;
+    vertical-align: middle;
+  } 
+}
+
+.l-navbar-auth-cart {
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: #443a2f;
+  border-radius: 0 0 5px 5px;
+  
+  a {
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    vertical-align: top;
+    padding: 10px 10px 20px 10px;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,111 @@
+.l-catalogue {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #ece7d7;
+}
+
+.l-catalogue-search {
+  width: 100%;
+  line-height: 35px;
+  position: relative;
+  background-color: #fff;
+
+  -webkit-box-shadow: inset 0px 1px 1px 0px rgba(66, 57, 46, 0.4);
+  -moz-box-shadow: inset 0px 1px 1px 0px rgba(66, 57, 46, 0.4);
+  box-shadow: inset 0px 1px 1px 0px rgba(66, 57, 46, 0.4);
+
+  .icon {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+  }
+
+  input {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    color: #867e6d;
+  }
+}
+
+.l-catalogue-search-field {
+  margin-right: 65px;
+  padding:0 5px 0 28px;
+}
+
+.l-catalogue-search-btn {
+  width: 65px;
+  display: inline-block;
+  float: right;
+  .c-btn {
+    border-radius: 0 3px 3px 0;
+  }
+}
+
+.l-catalogue-menu {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.l-catalogue-menu-btn {
+  width: 100%;
+  line-height: 35px;
+
+  .c-btn {
+    border-radius: 3px;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .c-btn.active {
+    border-radius: 3px 3px 0 0;
+  }
+
+  .icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.l-catalogue-menu-items {
+  width: 100%;
+  background-color: #42392e;
+  border-radius: 0 0 3px 3px;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.l-catalogue-menu-item {
+  width: 100%;
+  background-color: #42392e;
+  border-bottom: 1px solid #554d43;
+  position: relative;
+
+  &:last-child {
+    border-radius: 0 0 3px 3px;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 15px;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
